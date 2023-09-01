@@ -1,0 +1,16 @@
+.menuTitle {
+    color: white;
+}
+
+.menuTitle > h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 250px;
+    text-align: center;
+}
+
+.menuTitle > hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(168, 5, 5);
+}
