@@ -19,9 +19,10 @@
     margin-top: 8px;
 }
 
-.bigCard-content > p {
+.bigCard-content > p > a{
     min-width: 550px;
     color: rgb(75, 74, 74);
+    align-items: flex-start;
 }
 
 .bigCard-img > img {

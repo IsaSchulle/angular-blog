@@ -13,5 +13,6 @@ export class BigCardComponent {
   titleNew:string = ""
   @Input()
   contentNew:string = ""
-
+  @Input()
+  id:string = "0"
 }

@@ -6,9 +6,9 @@
         height="250px">
     </div>
     <div class="bigCard-title">
-        <h1><a href="#">{{ titleNew }}</a></h1>
+        <h1><a [routerLink]="['content', id]">{{ titleNew }}</a></h1>
     </div>
     <div class="bigCard-content">
-        <p>{{ contentNew }}</p>
+        <p><a [routerLink]="['content', id]"> {{ contentNew }} </a></p>
     </div>
 </div>
